@@ -9,14 +9,14 @@ Explanation:
 '''
 I have a file with FASTA sequences of human genes and the corresponding orthologs organized in the following way:
 
->human_gene_1
+\>human_gene_1
 AABAABAB
->specie_1_ortholog_1.1_rep1
+\>specie_1_ortholog_1.1_rep1
 AABAABABB
->specie_2_ortholog_1.2_rep2
+\>specie_2_ortholog_1.2_rep2
 ABBAABABB
 
->human_gene_2
+\>human_gene_2
 CDDCDCCDAC
 >specie_1_ortholog_2.1_rep3
 CDCCDCACCA
