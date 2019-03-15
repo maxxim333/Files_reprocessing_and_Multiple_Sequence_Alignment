@@ -18,18 +18,18 @@ ABBAABABB
 
 \>human_gene_2
 CDDCDCCDAC
->specie_1_ortholog_2.1_rep3
+\>specie_1_ortholog_2.1_rep3
 CDCCDCACCA
 >specie_3_ortholog_2.3_rep4
 CCCCCC
 
->human_gene_3
+\>human_gene_3
 ACAABAABBABBA
->specie_1_ortholog_1.1_rep5
+\>specie_1_ortholog_1.1_rep5
 AABAABABB
->specie_3_ortholog_3.3_rep6
+\>specie_3_ortholog_3.3_rep6
 ABBABACBABB
->specie_4_ortholog_3.4_rep7
+\>specie_4_ortholog_3.4_rep7
 ABBABACAAABB
 ...
 ...
@@ -49,34 +49,34 @@ python counter_duplicate_lines_literally_to_fasta.py #This script will add a suf
 '''
 The output of the python script is in following format:
 
->human_gene_1
+\>human_gene_1
 AABAABAB
->specie_1_ortholog_1.1_rep1
+\>specie_1_ortholog_1.1_rep1
 AABAABABB_s1
 
->human_gene_1
+\>human_gene_1
 AABAABAB
->specie_2_ortholog_1.2_rep2
+\>specie_2_ortholog_1.2_rep2
 ABBAABABB_s2
 
->human_gene_2
+\>human_gene_2
 CDDCDCCDAC
->specie_1_ortholog_2.1_rep3
+>\specie_1_ortholog_2.1_rep3
 CDCCDCACCA_s3
 
->human_gene_2
+>ºhuman_gene_2
 CDDCDCCDAC
->specie_3_ortholog_2.3_rep4
+>ºspecie_3_ortholog_2.3_rep4
 CCCCCC_s4
 ...
 ...
 
 I want to convert it to the following format for each file (number of files created will be equal to number of HUMAN genes):
->human_gene_1
+>\human_gene_1
 AABAABAB
->specie_1_ortholog_1.1_rep1
+>\specie_1_ortholog_1.1_rep1
 AABAABABB_s1
->specie_2_ortholog_1.2_rep2
+>\specie_2_ortholog_1.2_rep2
 ABBAABABB_s2
 '''
 
