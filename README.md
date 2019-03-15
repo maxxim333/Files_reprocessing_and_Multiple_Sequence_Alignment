@@ -20,7 +20,7 @@ ABBAABABB
 CDDCDCCDAC
 \>specie_1_ortholog_2.1_rep3
 CDCCDCACCA
->specie_3_ortholog_2.3_rep4
+\>specie_3_ortholog_2.3_rep4
 CCCCCC
 
 \>human_gene_3
@@ -61,22 +61,22 @@ ABBAABABB_s2
 
 \>human_gene_2
 CDDCDCCDAC
->\specie_1_ortholog_2.1_rep3
+\>specie_1_ortholog_2.1_rep3
 CDCCDCACCA_s3
 
->ºhuman_gene_2
+\>human_gene_2
 CDDCDCCDAC
->ºspecie_3_ortholog_2.3_rep4
+\>specie_3_ortholog_2.3_rep4
 CCCCCC_s4
 ...
 ...
 
 I want to convert it to the following format for each file (number of files created will be equal to number of HUMAN genes):
->\human_gene_1
+\>human_gene_1
 AABAABAB
->\specie_1_ortholog_1.1_rep1
+\>specie_1_ortholog_1.1_rep1
 AABAABABB_s1
->\specie_2_ortholog_1.2_rep2
+\>specie_2_ortholog_1.2_rep2
 ABBAABABB_s2
 '''
 
